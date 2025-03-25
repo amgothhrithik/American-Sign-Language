@@ -67,3 +67,4 @@
   - second `DrawingSpec` is for connections(the lines).
 - `data_aux`: A flat list [x1, y1, x2, y2, ...] (used for prediction)
 - `x_`, `y_`: Separate lists for calculating bounding box.
+-  `if cv2.waitKey(10) & 0xFF ==  27`→  Esc button to close webcam 
